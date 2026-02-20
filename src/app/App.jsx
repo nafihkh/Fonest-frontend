@@ -3,7 +3,6 @@ import AuthPage from "../pages/auth/AuthPage";
 import Home from "../pages/Home";
 import CompleteProfile from "../pages/auth/CompleteProfile";
 import ProtectedRoute from "../components/ProtectedRoute";
-
 function App() {
   return (
     <Routes>

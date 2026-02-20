@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+/* Font Face */
+@font-face {
+  font-family: "BalooCustom";
+  src: url("./assets/fonts/Baloo-Regular.ttf") format("truetype");
+}
+
+/* Tailwind v4 theme extension */
+@theme {
+  --font-baloo: "BalooCustom", cursive;
+}
