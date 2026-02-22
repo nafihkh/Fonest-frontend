@@ -11,7 +11,7 @@ const deals = [
     oldPrice: "$499",
     discountLabel: "-20%",
     image:
-      "https://readdy.ai/api/search-image?query=premium%20luxury%20apple%20watch%20series%209%20smartwatch%20with%20sleek%20black%20band%20on%20pure%20white%20minimalist%20background%20product%20photography%20studio%20lighting%20ultra%20realistic%20high%20resolution%20close%20up%20detailed%20view&width=800&height=800&seq=prod1&orientation=squarish",
+      "https://res.cloudinary.com/dl0wwvy4j/image/upload/v1771602151/808f1440431c3eb26645528fb9562ef2_1_qqps1q.jpg",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const deals = [
     oldPrice: "$299",
     discountLabel: "-17%",
     image:
-      "https://readdy.ai/api/search-image?query=apple%20airpods%20pro%20second%20generation%20white%20wireless%20earbuds%20with%20charging%20case%20on%20clean%20white%20background%20premium%20product%20photography%20studio%20lighting%20ultra%20realistic%20high%20detail%20close%20up%20shot&width=800&height=800&seq=prod2&orientation=squarish",
+      "https://res.cloudinary.com/dl0wwvy4j/image/upload/v1771602195/c110687a124bb9b1dc015e0cf477025f_1_ywnclb.jpg",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const deals = [
     oldPrice: "$1399",
     discountLabel: "-14%",
     image:
-      "https://readdy.ai/api/search-image?query=flagship%20apple%20iphone%2015%20pro%20max%20titanium%20smartphone%20with%20triple%20camera%20system%20on%20pristine%20white%20background%20premium%20product%20photography%20studio%20lighting%20ultra%20realistic%20high%20resolution%20detailed%20close%20up%20view&width=800&height=800&seq=prod3&orientation=squarish",
+      "https://res.cloudinary.com/dl0wwvy4j/image/upload/v1771602612/fb319b48989079d1a6d8b5edcddb8c17_1_k05axu.jpg",
   },
   {
     id: 5,
@@ -38,7 +38,7 @@ const deals = [
     oldPrice: "$349",
     discountLabel: "-14%",
     image:
-      "https://readdy.ai/api/search-image?query=samsung%20galaxy%20smartwatch%20with%20circular%20display%20black%20band%20on%20white%20background%20premium%20product%20photography%20studio%20lighting%20ultra%20realistic&width=800&height=800&seq=prod5&orientation=squarish",
+      "https://res.cloudinary.com/dl0wwvy4j/image/upload/v1771602657/peqiblbo_bs5j1t.png",
   },
 ];
 const container = {

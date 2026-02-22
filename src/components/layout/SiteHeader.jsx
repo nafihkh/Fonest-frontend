@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 
 const LOGO =
-  "https://static.readdy.ai/image/b151919b1a297d79a4f482f66a3c2721/0ceb56e017e124519c64b83b6ab92e6e.png";
+  "https://res.cloudinary.com/dl0wwvy4j/image/upload/v1771488519/Logo_c07lrq.jpghttps://res.cloudinary.com/dl0wwvy4j/image/upload/v1771488519/Logo_c07lrq.jpg";
 
 const nav = [
   { label: "Home", to: "/" },

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const LOGO =
-  "https://static.readdy.ai/image/b151919b1a297d79a4f482f66a3c2721/0ceb56e017e124519c64b83b6ab92e6e.png";
+  "https://res.cloudinary.com/dl0wwvy4j/image/upload/v1771488519/Logo_c07lrq.jpg";
 
 export default function SiteFooter() {
   return (
@@ -95,12 +95,12 @@ export default function SiteFooter() {
                 Terms of Service
               </button>
               <a
-                href="https://readdy.ai/?ref=logo"
+                href="https://fonset.shop"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[13px] text-gray-600 hover:text-red-600 transition-colors duration-300"
               >
-                Powered by Readdy
+                Powered by Fonest
               </a>
             </div>
           </div>

@@ -43,7 +43,13 @@ export default function HomeCategories() {
         </div>
         </Reveal>
         <Reveal>
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+              <motion.div
+                className="grid grid-cols-2 md:grid-cols-5 gap-6"
+                variants={container}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, amount: 0.2 }}
+              >
             {categories.map((c) => (
                 <Link
                 key={c.name}
@@ -59,7 +65,7 @@ export default function HomeCategories() {
                 <p className="text-[13px] text-gray-500">{c.count} products</p>
                 </Link>
             ))}
-            </div>
+            </motion.div>
         </Reveal>
       </div>
     </section>
